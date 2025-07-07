@@ -1,0 +1,23 @@
+# Exclude raw geospatial data
+data/fsa/
+data/wildfire/
+
+# Exclude model artifacts and outputs
+models/
+outputs/
+
+# Common geospatial extensions
+*.shp
+*.dbf
+*.shx
+*.prj
+*.sbn
+*.sbx
+*.xml
+
+# Database and environment files
+*.db
+*.sqlite
+.env
+__pycache__/
+*.pyc
