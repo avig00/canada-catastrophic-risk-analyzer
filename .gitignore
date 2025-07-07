@@ -4,7 +4,7 @@ data/wildfire/
 
 # Exclude model artifacts and outputs
 models/
-outputs/
+# outputs/
 
 # Common geospatial extensions
 *.shp
